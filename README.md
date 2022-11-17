@@ -1,11 +1,21 @@
+# CENTRAL DE LINKS
 <style>
     body{
-        background-color: Blue;
+        background: rgb(2,0,36);
+        background: linear-gradient(172deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+        font-family: ;
+        color: white;
+        width: 100%;
     }
 </style>
 <body>
-#Central de links
+<h1>links</h1>
 
-<p>Aqui estão os links para acesso aos projetos</p>
-<a href="../MenuBasico/index.html">Menu Basico</a>
+<p>Acesse os projetos clicando em baixo</p>
+    <nav>
+        <ul>
+            <li><a href="../MenuBasico/index.html">Menu Basico</a>
+            </li>
+        </ul>
+    </nav>
 </body>
