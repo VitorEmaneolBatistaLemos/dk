@@ -84,7 +84,7 @@ form input{
     font-weight: bold;
 }
 Form input[name="reclamação"]{
-    
+    resize: none;
     width: 23vw;
     height: 200px;
 }
