@@ -59,8 +59,9 @@ form{
 form fieldset{
     text-align: center;
     padding: 5px 10px 18px 10px;
-    border: 1px solid gray;
     border-radius: 5px;
+    border: 2.5px solid gray;
+    font-family: Arial, Helvetica, sans-serif
 }
 form legend{
     text-align: left;
@@ -74,12 +75,34 @@ form > fieldset > p{
     font-variant: small-caps;
     font-family: 'Courier New', Courier, monospace;
 }
-form input{
+form input{ 
+    margin: 10px 0px;
+    padding: 5px 3px;
+    
     font-family: 'BhuTuka Expanded One', cursive;
     font-size: .65em;
     font-weight: bold;
 }
-Form input:last-of-type(text){
-    width: 60%;
+Form input[name="reclamação"]{
+    
+    width: 23vw;
+    height: 200px;
 }
 
+Form input[type="file"]{
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: .78em;
+}
+form input[type="submit"]{
+    width: 10%;
+    font-size: 0.88em;
+
+    height: 30px;
+    color: black;
+}
+
+input[type="submit"]:hover{
+    cursor: pointer;
+}
