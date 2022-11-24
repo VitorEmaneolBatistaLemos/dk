@@ -21,7 +21,7 @@ header{
     width: 13%;
 }
 .banner{
-    background-image: url(/LaddingPage/images/header_bg.png);
+    background-image: url(../images/header_bg.png);
     width: 100%;
     height: 540px;
     background-position: center bottom;
@@ -38,6 +38,48 @@ header{
     margin-right: 45px;
     border: 5px solid gray;
     width: 25%;
-    height: 100%;
+    height: calc(100% + 30px);
+    position: relative;
+    top: -15px;
     background-color: white;
+}
+
+form > h2{
+    padding: 5px 15px;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: 'Open Sans', sans-serif;
+    color: #9999;
+    
+}
+.inputs{
+    padding: 5px 15px;
+    
+}
+.inputs > input{
+    height: 50px;
+    width: 100%;
+    
+}
+.inputs > span{
+    padding-top: 25px;
+    
+    display: inline-block;
+    width: 100%;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+
+}
+.inputs > input[type="submit"]{
+    margin-top: 55px;
+    width: 70%;
+    position: relative;
+    left: 50px;
+    cursor: pointer;
+    text-align: center;
+    color: black;
+    background-color: #393c73;
+    height: 40px;
+    border: none;
 }
