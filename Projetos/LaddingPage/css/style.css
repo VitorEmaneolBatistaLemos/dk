@@ -7,7 +7,7 @@ html, body{
     height: 100%;
 }
 header{
-    width: 1366px;
+    width: 1349px;
     margin: 0 auto;
 }
 .header{
@@ -105,7 +105,19 @@ input[type="submit"]:hover{
     color: white;
 }
 
-.section-ul , li{
+.section-ul ,  li{
     padding-top: 20px;
 }
 
+.container{
+    padding: 3% 5%;
+    background-color: gray;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 160px;
+}
+/*Ajustar h2 e paragrafo*/
+.container h2{
+
+}
